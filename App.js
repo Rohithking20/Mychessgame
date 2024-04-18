@@ -4,9 +4,9 @@ import { reducer } from './components/reducer'
 import { useReducer } from 'react'
 import { initGameState } from './components/constants';
 import AppContext from './components/context'
-//import Control from './components/Control';
-//import TakeBack from './components/Control/bits/TakeBack';
-//import MovesList from './components/Control/bits/MovesList';
+import Control from './components/Control';
+import TakeBack from './components/Control/bits/TakeBack';
+import MovesList from './components/Control/bits/MovesList';
 
 function App() {
 
